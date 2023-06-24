@@ -1,0 +1,159 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 255, 225);
+  z-index: 95;
+  position: absolute;
+  top: 120px;
+  padding: 50px 0px;
+
+}
+
+.pet{
+  width: 120px;
+  height: 120px;
+  border: 10px solid lightseagreen;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+
+}
+
+.pet:hover{
+  border: none;
+  outline: 20px solid rgb(110, 230, 156);
+  z-index: 100;
+}
+
+.info-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  position: fixed;
+  top: 25vh;
+  left: 20vw;
+  height: auto;
+  width: 50vw;
+  border-radius: 25px;
+  border: 20px solid rgb(110, 230, 156);
+  z-index: 500;
+  pointer-events: none;
+  opacity: 0;
+  padding: 20px 100px;
+}
+
+
+.pet:hover .info-section{
+  opacity: 1;
+}
+
+
+.pet:hover .info-section .name{
+  font-weight: bold;
+  font-size: 50px;
+  background-color: lightgreen;
+  border: 15px solid olive;
+  padding: 5px 30px;
+  border-radius: 20px;
+  position: absolute;
+  top: -95px;
+  left: -80px;
+}
+.pet:hover .info-section .info-image{
+
+  width: 300px;
+  height: auto;
+  border: 10px solid rgb(107, 153, 111);
+  border-radius: 50px;
+ 
+}
+
+.pet:hover  .info-section .info-sentence{
+  margin-top: 20px;
+  color: olive;
+  font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.petkyla{
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  right: -25%;
+}
+
+.petcash{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.petgrizz{
+  width: 200%;
+  position: absolute;
+  bottom: -95%;
+  right: -40%;
+}
+
+.petpanpan{
+  width: 100%;
+  position: absolute;
+  bottom: -20%;
+  right: 0%;
+}
+
+.petyuna{
+  width: 200%;
+  position: absolute;
+  bottom: -65%;
+  right: -70%;
+}
+
+.petluna{
+  width: 120%;
+  position: absolute;
+  bottom: -40%;
+  right: -20%;
+}
+
+.petsunshine{
+  width: 150%;
+  position: absolute;
+  bottom: -10%;
+  right: -50%;
+}
+
+.petmaraclara{
+  height: 100%;
+  position: absolute;
+  bottom: 0%;
+  right: -15%;
+}
+
+.petskitty {
+  width: 150%;
+  position: absolute;
+  bottom: -70%;
+  right: -40%;
+}
+
+.petfreya {
+  width: 120%;
+  position: absolute;
+  bottom: -60%;
+  right: -10%;
+}
+
+.petjett{
+  width: 100%;
+  position: absolute;
+  bottom: -25%;
+}
